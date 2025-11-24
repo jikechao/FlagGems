@@ -13,6 +13,7 @@ from flag_gems.ops.arange import arange, arange_start
 from flag_gems.ops.argmax import argmax
 from flag_gems.ops.argmin import argmin
 from flag_gems.ops.atan import atan, atan_
+from flag_gems.ops.atan2 import atan2
 from flag_gems.ops.attention import (
     ScaleDotProductAttention,
     flash_attention_forward,
@@ -161,7 +162,6 @@ from flag_gems.ops.pow import (
     pow_tensor_tensor,
     pow_tensor_tensor_,
 )
-from flag_gems.ops.atan2 import atan2
 from flag_gems.ops.prod import prod, prod_dim
 from flag_gems.ops.quantile import quantile
 from flag_gems.ops.rand import rand
